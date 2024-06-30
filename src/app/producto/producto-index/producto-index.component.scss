@@ -1,0 +1,41 @@
+#carouselExampleCaptions{
+  height: 60px;
+}
+
+h3, h4, h5, p, span{
+  color: white;
+  color: white;
+}
+
+.row{
+  margin:10px;
+}  
+
+
+.carousel-item img{
+  max-height: 100px;
+  
+}
+
+.click{
+  cursor: pointer;
+}
+
+.card{
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.card img{
+  height: 450px;
+}
+
+.accordion, .accordion-button, .accordion-body, .accordion-item, .accordion-header, .collapse{
+  background-color: transparent;
+  color: white;
+}
+
+$accordion-icon-color:   white;
+
+
+

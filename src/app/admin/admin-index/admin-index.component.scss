@@ -1,0 +1,190 @@
+
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+ 
+
+
+
+  .mat-tab-group {
+    margin-bottom: 48px;
+  }
+
+  .adminDiv{
+    margin:15px;
+  }
+
+  .carta{
+    width: 100%;
+    margin: 5px;
+  }
+
+  .divGraphs{
+    display: flex;
+    flex-wrap: wrap; 
+  }
+
+  .rows{
+    width: calc(33.33% - 10px); /* Adjust based on the number of columns and gaps */
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .rows:nth-child(3n) {
+    margin-right: 0;
+}
+
+h4{
+  color: white;
+  font-weight: 500;
+}
+
+.textoFiltro{
+  color: white;
+  font-size: larger;
+}
+
+.formAgregar{
+  padding: 5px;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px ;
+}
+
+mat-hint{
+  color: white;
+}
+
+.inputsForm{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.divForm{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.rowsForm{
+  margin-right: 10px;
+  text-align: center;
+}
+
+.rowsForm:nth-child(1n) {
+  margin-right: 0;
+  width: calc(70% - 10px); /* Adjust based on the number of columns and gaps */
+}
+.rowsForm:nth-child(2n) {
+  margin-right: 0;
+  width: calc(30% - 10px); /* Adjust based on the number of columns and gaps */
+}
+
+.imagen{
+  border: 2px solid #d3aa0a;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #a29bfe;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#file-input-label:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+// desde aqui el nuevo css, revisar todo lo que esta para arriba
+
+.butMenu{
+  margin:0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width:100%;
+  justify-content: left;
+}
+
+.butMenuActive{
+  background-color: #333236;
+}
+
+.butMenuFirst {
+  margin-top: 25px;
+}
+
+.mainDiv{
+  background-color:rgb(27, 27, 27);
+  border-top: 1px solid rgb(139, 139, 139) ;
+  
+  border-bottom-right-radius: 10px;
+}
+
+.divMenu{
+  border-top: 1px solid rgb(139, 139, 139) ;
+  border-right: 1px solid rgb(139, 139, 139) ;
+}
+
+.divTitu{
+  border-right: 1px solid rgb(139, 139, 139) ;
+}
+
+.cartaMain{
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 0px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 2px;
+  background-color: rgb(34, 33, 37);
+  border-radius: 10px;
+  margin-bottom: 300px;
+}
+
+h6{
+  color: white;
+  margin-top: 5px;
+}
+
+mat-icon{
+  color: white;
+}
+
+.cartas{
+  margin: 10px;
+  margin-top: 25px;
+  background: transparent;
+}
+
+.subtit{
+  color: gray;
+}
+
+h1{color: white;}
+
+.tabla{
+  max-width: 100%;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.cartaTabla{
+  margin-top: 25px;
+  background: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  max-width:100%;
+}
